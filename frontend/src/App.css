@@ -1,0 +1,17 @@
+.homepage {
+	text-align: center;
+	padding: 4rem;
+}
+.charts {
+	display: flex;
+	width: 90%;
+	gap: 2rem;
+	margin-top: 2rem;
+}
+.dropdown {
+	margin: 1rem auto;
+}
+
+.dropdown select{
+	padding: 0.5rem;
+}
