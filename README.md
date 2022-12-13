@@ -2,7 +2,7 @@
 
 A dashbaord to display the usage by each services on a particular day. The chart displays download and upload usage by a particular service. The card diplays the total consumption in a day by the service.
 
-##Stack
+## Stack
 - ReactJs
 - ExpressJs
 - NodeJs
@@ -54,4 +54,3 @@ A dashbaord to display the usage by each services on a particular day. The chart
   cd backend
   npm run dev
  ```
- 
