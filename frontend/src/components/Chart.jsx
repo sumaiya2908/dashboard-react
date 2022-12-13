@@ -5,6 +5,7 @@ import { Bar } from "react-chartjs-2";
 import getChartData from "../utils/chartData";
 import getDays from "../utils/formatData";
 import Dropdown from "./Dropdown";
+import Cards from "./Cards";
 
 ChartJS.register(...registerables);
 
@@ -34,6 +35,8 @@ const Chart = ({ data }) => {
 					return <Bar data={chart} options={chartOptions} />;
 				})}{" "}
 			</div>
+			<Cards data={formattedData[date]} />
+
 		</div>
 	);
 };
